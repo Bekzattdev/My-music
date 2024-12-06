@@ -1,3 +1,4 @@
+'use client'
 import React, { FC, ReactNode } from "react";
 import ReduxProvider from "../providers/ReduxProvider";
 interface RootLayoutClientProps {
