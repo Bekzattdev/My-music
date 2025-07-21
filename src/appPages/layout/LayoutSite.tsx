@@ -1,5 +1,4 @@
 import { FC, ReactNode } from "react";
-import scss from "./LayoutSite.module.scss"
 import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
 interface layoutProps {
@@ -7,7 +6,7 @@ interface layoutProps {
 }
 const LayoutSite: FC<layoutProps> = ({ children }) => {
   return (
-    <div className={scss.LayoutSite}>
+    <div >
       <Header />
       <main>{children}</main>
       <Footer />
